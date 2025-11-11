@@ -17,6 +17,7 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
 ]
 dependencies = [
+    "avulto>=0.1.22",
     "loguru>=0.7.3",
     "numpy>=2.2.6",
     "opencv-python>=4.11.0.86",
