@@ -472,6 +472,7 @@ version = "0.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "loguru" },
+    { name = "pillow" },
     { name = "platformdirs" },
     { name = "pylette" },
     { name = "typer" },
@@ -508,6 +509,7 @@ docs = [
 [package.metadata]
 requires-dist = [
     { name = "loguru", specifier = ">=0.7.3" },
+    { name = "pillow", specifier = ">=10.4.0" },
     { name = "platformdirs", specifier = ">=4.3.8" },
     { name = "pylette", specifier = ">=5.1.1" },
     { name = "typer", specifier = ">=0.15.4" },
